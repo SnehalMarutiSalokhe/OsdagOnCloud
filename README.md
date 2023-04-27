@@ -1,70 +1,90 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Osdag on cloud
 
-## Available Scripts
+This is frontend of Osdag Open steel design and graphic aplication which is coaded in react js laguage.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Install Node JS
 
-### `npm test`
+- Refer to [ install nodejs]( https://nodejs.org/en/) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install create-react-app
 
-### `npm run build`
+   Install create-react-app npm package globally. This will        help to easily run the project and also build the source files  easily. Use the following command to install create-react-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+ npm install -g create-react-app
+```
+##  Cloning and Run the aplication in Local
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Clone the project into local
 
-### `npm run eject`
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://link-to-project
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Go to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  cd my-project
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Install dependencies
 
-## Learn More
+nstall all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### In order to run the application Type the following command
+```bash
+  npm run start
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Aplication Design
 
-### Analyzing the Bundle Size
+### Components
+ 
+#### 1. Navbar 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##### This contains the main part of the app. In which it contains some buttuns through which we can design various Components . After clicking on that componet we have have to chose sub componet. After that the actual desing will start. 
 
-### Making a Progressive Web App
+#### 2. Sidebar
+##### this contains some subcontents such as file , Edit View Help
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### 3.Home
+##### Through which we can access our all componets which further divided into many sub sections.
+## Demo
 
-### Advanced Configuration
+https://www.veed.io/view/e93324e6-6285-46a6-bd84-7188f6199a0b?panel=share
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Virtual DOM: React JS uses a virtual DOM to update the UI efficiently. When a user interacts with the UI, React updates the virtual DOM instead of the actual DOM, which is faster and more efficient. React then compares the updated virtual DOM with the previous version and only updates the parts that have changed in the actual DOM.
+- No need to install app on pc to use osdag.
+- we can access the app in one click.
+- it is single page app.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Resources 
+
+### create-react-app :
+ The following link has all the commands that can be used with create-react-app https://github.com/facebook/create-react-app
+
+### ReactJS :
+ Refer to https://reactjs.org/ to understand the concepts of ReactJS
+
+### React Bootstrap : 
+Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
+
+
