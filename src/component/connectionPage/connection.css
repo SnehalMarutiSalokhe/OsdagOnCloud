@@ -1,0 +1,21 @@
+.connectionPageContainer{
+    flex: 10.5;
+    height: calc(100vh - 20px);
+    background-color: rgb(234, 239, 225);
+
+}
+
+.connectionPageHeader
+{
+    background: #ce6161;
+    width: 100%;
+    height:25px;
+    font-weight: 500;
+     text-align: center;
+}
+/* 
+.connectionChoose{
+    
+} */
+
+
