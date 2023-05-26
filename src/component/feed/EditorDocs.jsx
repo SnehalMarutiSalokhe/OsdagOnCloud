@@ -1,15 +1,15 @@
 import "./editorDocs.css";
 
-import React from 'react'
+import React from "react";
 
 function EditorDocs() {
   return (
     <div className="editorDocs">
-      editorDocs
+      
+      <div className="editorDocsOutBox">editorDocsOutBox editorDocs</div>
+    
     </div>
-  )
+  );
 }
 
-export default EditorDocs
-
-
+export default EditorDocs;

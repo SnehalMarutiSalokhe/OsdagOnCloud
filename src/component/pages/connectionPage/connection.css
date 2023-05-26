@@ -1,6 +1,5 @@
 .connectionPageContainer{
-    flex: 10.5;
-    height: calc(100vh - 20px);
+   
     background-color: rgb(234, 239, 225);
 
 }

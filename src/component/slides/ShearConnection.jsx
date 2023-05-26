@@ -1,12 +1,20 @@
  import "./ShearConnection.css";
+ import { Link } from "react-router-dom";
+
 import Fineplate from "./images/Fineplate.png";
 import CleatAngle from "./images/cleatAngle.png";
 import Endplate from "./images/endplate.png";
 import SeatedAngle from "./images/seatedAngle.png";
 
-export default function ShearConnection() {
+// import Navbar from "../../component/Navbar/Navbar.js";
+import Connection from  "../../component/pages/connectionPage/Connection.js" ;
+
+ function ShearConnection() {
   return (
     <>
+   
+    <Connection></Connection>
+    
       <div className="slidecontent">
         <ul className ="slidecontentLeft">
         <li>
@@ -19,7 +27,9 @@ export default function ShearConnection() {
             value="option1"
           />
           <label className="form-check-label" for="inlineRadio1">
-            Fin Plate
+          <Link to= "/Fin Plate" >
+           Fin Plate
+           </Link>
             <div>
             <img src={Fineplate } class="rounded float-start" alt="Fineplate"/>
             </div>
@@ -81,3 +91,6 @@ export default function ShearConnection() {
     </>
   );
 }
+
+
+export default  ShearConnection

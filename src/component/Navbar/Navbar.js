@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./Osdag_header.png";
+import { Link } from "react-router-dom";
 class Navbar extends React.Component {
   render() {
     return (
@@ -8,19 +9,19 @@ class Navbar extends React.Component {
           
             <div className="container-fluid">
 
-              <a className="navbar-brand" href="/">
+              <Link  to="/welcome" className="navbar-brand" >
                 <img src={logo} alt="logo" width="80" height="40px" className="d-inline-block align-text-top" />                
-              </a>
-              <a className="btn btn-primary" href="/" role="button">Connection</a>
-              <a className="btn btn-secondary" href="/" role="button"> Tension Member</a>
-              <a className="btn btn-success" href="/" role="button"> Compression Member</a>
-              <a className="btn btn-warning" href="/" role="button">Flexural Member</a>
-              <a className="btn btn-info" href="/" role="button">Beam-Column</a>
-              <a className="btn btn-dark" href="/" role="button">Plate Girder</a>
-              <a className="btn btn-success" href="/" role="button">Truss</a>
-              <a className="btn btn-primary" href="/" role="button">2D Frame</a>
-              <a className="btn btn-secondary" href="/" role="button">3D Frame</a>
-              <a className="btn btn-info" href="/" role="button"> Group Design</a>
+              </Link>
+              <Link  to="/Connection" className="btn btn-primary"  role="button">  Connection</Link>
+              <Link  to="/Tension" className="btn btn-secondary"  role="button"> Tension Member</Link>
+              <Link  to="/Compression" className="btn btn-success"  role="button"> Compression Member</Link>
+              <Link  to="/Flexural" className="btn btn-warning"  role="button">Flexural Member</Link>
+              <Link  to="/Beam-Column" className="btn btn-info"  role="button">Beam-Column</Link>
+              <Link  to="/Plate" className="btn btn-dark"  role="button">Plate Girder</Link>
+              <Link  to="/Truss" className="btn btn-success"  role="button">Truss</Link>
+              <Link  to="/2D" className="btn btn-primary"  role="button">2D Frame</Link>
+              <Link  to="/3D" className="btn btn-secondary"  role="button">3D Frame</Link>
+              <Link  to="/Group" className="btn btn-info"  role="button"> Group Design</Link>
               <a className="btn btn-danger" href="https://www.youtube.com/channel/UCnSZ7EjhDwNi3eCPcSKpgJg" role="button">Help</a>
 
 
